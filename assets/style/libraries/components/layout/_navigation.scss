@@ -1,0 +1,26 @@
+.navigation {
+    ul {
+        li {
+            margin-right: .500em;
+
+            a {
+                padding: .500em;
+                background-color: #dfe4ea;
+                border-radius: .312em;
+                text-decoration: none;
+                color: #747d8c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+
+                &:hover,
+                &.active {
+                    background-color: #747d8c;
+                    color: #ffffff;
+                }
+
+            }
+        }
+    }
+}
